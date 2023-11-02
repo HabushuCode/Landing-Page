@@ -19,6 +19,12 @@ body {
     padding: 16px 80px 0 80px;
     color: white;
 }
+ 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
 
 ul {
     margin: 0;
@@ -27,6 +33,7 @@ ul {
     display: flex;
     gap: 16px;
     font-size: 18px;
+    align-items: center;
 }
 
 a {
@@ -42,9 +49,10 @@ a:link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    max-width: 100vw;
     height:80vh;
     padding: 0 80px;
+    gap: 50px
 }
 
 .hero-text {
@@ -57,6 +65,7 @@ a:link {
     font-size : 18px;
     color: #E5E7EB;
     margin-bottom: 10px;
+    max-width: 500px;
 }
 
 button {
@@ -71,6 +80,8 @@ button {
 
 .hero-right {
     width: 700px;
+    height: 300px;
+    background-color: grey;
     flex: auto;
 }
 
@@ -79,7 +90,6 @@ button {
     color: black;
     display: flex;
     flex-direction:column;
-    height: 700px;
 }
 
 .info-title {
@@ -95,8 +105,10 @@ button {
     display: flex;
     flex-direction:row;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
+    flex-wrap: wrap;
     gap: 40px;
+    padding-bottom: 100px;
 }
 
 #info-img {
@@ -113,13 +125,13 @@ button {
     align-items: center;
     font-size: 14px;
     text-align:center;
-    margin-bottom: 150px;
 }
 
 .info-text {
     max-width: 150px;
     color: darkgray;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .quote {
@@ -127,9 +139,9 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 700px;
     background-color: #E5E7EB;
-    margin: 50px 0;
+    height: 400px;
+    
 }
 
 .quote-text {
@@ -141,7 +153,15 @@ button {
     max-width: 700px;
 }
 
+.name {
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+}
+
 .cta {
     height: 700px;
     background-color: blue;
 }
+
